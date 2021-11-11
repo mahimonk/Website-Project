@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Log In</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 align="center" padding=> Welcome to Tech Live </h1>
+    <h2 style="color:rgb(32, 32, 32)"></h2>
+    <div class="tech">
+        <form action="/action_page.php">
+            <div class="imgcontainer">
+                <!-- <img src="Logo.jpg" alt="Tech Live" class="avatar"> -->
+                <a href="index.html"> <img src="Logo.jpg" alt="Tech Live" class="avatar"></a>
+            </div>
+
+            <div class="container">
+                <label style="color: #ffffff;"><b>Email</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label style="color: #ffffff;"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit" onclick="log1()">Login</button>
+                <input class="remember" type="checkbox" checked="checked" style="color: white;"> Remember me
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw"> <a href="forgot.html">Forgot Password  &nbsp;</a><a href="register.html">/Create an Account</a></span>
+            </div>
+        </form>
+    </div>
+<script>
+    function log1(){
+        alert("Acess Denied")
+    }
+</script>
+</body>
+
+</html>
